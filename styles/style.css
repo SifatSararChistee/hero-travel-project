@@ -310,14 +310,14 @@
 
 .content1 h3,.content2 h3,.content3 h3{
     color: rgb(19, 19, 24);
-    font-size: 24px;
+    font-size: 1.4rem;
     font-weight: 800;
     margin-bottom: 20px;
 }   
 
 .content1 p,.content2 p,.content3 p{
     color: rgb(90, 90, 93);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;}
 
     /* deal section */
@@ -389,7 +389,7 @@
 .deal-content2 h3,
 .deal-content3 h3{
     color: rgb(19, 19, 24);
-    font-size: 24px;
+    font-size: 1.3rem;
     font-weight: 800;
     margin-bottom: 20px;
 }
@@ -398,7 +398,7 @@
 .deal-content2 p,
 .deal-content3 p{
     color: rgb(90, 90, 93);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
     margin-bottom: 20px;
 }
