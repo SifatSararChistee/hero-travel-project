@@ -170,7 +170,7 @@
     font-weight: 400;
 
 }
-.gap20{
+.gap30{
     margin-top: 30px;
 }
 
@@ -201,7 +201,7 @@
         display: none;
     }
 
-    .selection-container{
+    .selection-container,.tour-container {
         flex-direction: column;
         justify-content: center;
         align-items: center;
