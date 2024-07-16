@@ -77,6 +77,10 @@
     text-decoration: none;
 }
 
+#hamburger-icon{
+    display:none ;
+}
+
 
 /* banner styles */
 
@@ -139,11 +143,34 @@
     padding: 15px 35px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:600px) {
     *{
         margin: 0 10px;
     }
     
+    #hamburger-icon{
+        display: inline;
+    }
     .nav-menu{
         display: none;
     }
@@ -153,5 +180,5 @@
         justify-content: center;
         align-items: center;
     }
-    
+
 }
