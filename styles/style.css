@@ -95,7 +95,7 @@
 
 
 .banner-content h1{
-    font-size: 4rem;
+    font-size: 5vw;
     font-weight: 800;
     color:  rgb(255, 255, 255);
     text-align: center;
@@ -139,3 +139,19 @@
     padding: 15px 35px;
 }
 
+@media screen and (max-width:600px) {
+    *{
+        margin: 0 10px;
+    }
+    
+    .nav-menu{
+        display: none;
+    }
+
+    .selection-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
