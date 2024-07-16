@@ -304,8 +304,8 @@
     background: rgba(233, 68, 68, 0.05);
     padding: 32px 55px;
     margin-top: 25px;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .content1 h3,.content2 h3,.content3 h3{
@@ -358,7 +358,8 @@
     .destination-img-container,
     .row1,
     .row2,
-    .row3
+    .row3,
+    .content-row1
     {
         flex-direction: column;
         justify-content: center;
