@@ -28,7 +28,8 @@
     .row2,
     .row3,
     .content-row1,
-    .place-container
+    .place-container,
+    .newsletter-container
     {
         flex-direction: column;
         justify-content: center;
@@ -87,7 +88,9 @@
     visibility: hidden;
         }
 
-
+        .newsletter-container{
+            gap: 50px;
+        }
 
         
 }
