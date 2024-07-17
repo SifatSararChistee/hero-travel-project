@@ -27,7 +27,8 @@
     .row1,
     .row2,
     .row3,
-    .content-row1
+    .content-row1,
+    .place-container
     {
         flex-direction: column;
         justify-content: center;
