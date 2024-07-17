@@ -50,25 +50,29 @@
     .deal-content2-container{position:relative;}
     .deal-content3-container{position:relative;}
 
-    .deal-content1-container>img{width:100%;max-width: 335px;
+    .deal-content1-container>img{width:100%;max-width: 435px;
     height: 500px;}
-    .deal-content2-container>img{width: 100%;max-width: 335px;
+    .deal-content2-container>img{width: 100%;max-width: 435px;
     height: 500px;}
-    .deal-content3-container>img{width: 100%;max-width: 335px;
+    .deal-content3-container>img{width: 100%;max-width: 435px;
     height: 500px;}
 
     .deal-content1{position:absolute;
-      top: 40%;  left: 5%; bottom: 0;  right: 5%;}
+      top: 40%;  left: 5%; bottom: 3%;  right: 0%;}
     .deal-content2{position:absolute;
-      top: 40%; left: 5%; bottom:0;    right: 5%;   }
+      top: 40%; left: 5%; bottom:3%;    right: 0%;   }
     .deal-content3{position:absolute;
-      top: 40%;  left:5%;   bottom: 0;   right: 5%;    }
+      top: 40%;  left:5%;   bottom: 3%;   right: 0%;    }
 
     .deal-content1,
     .deal-content2,
     .deal-content3{
-        max-width: 300px;
-        max-height: 290px;
+        display: grid;
+        place-items: center;
+        width: 90%;
+        height: auto;
+        max-width: 390px;
+        max-height: 390px;
         padding: 0px;
     }
 
@@ -81,4 +85,8 @@
 .text-hidden{
     visibility: hidden;
         }
+
+
+
+        
 }
